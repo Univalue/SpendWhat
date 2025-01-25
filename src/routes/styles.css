@@ -21,6 +21,7 @@
     --bulma-text-h: 240;
     --bulma-text-s: 10%;
     --bulma-text-l: 2%; */
+    --bulma-block-spacing: 0;
 }
 
 @media (prefers-color-scheme: light) {
