@@ -3,6 +3,7 @@
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { ModeWatcher, mode } from "mode-watcher";
 	import * as m from '$lib/paraglide/messages.js';
+	import './styles.css'
 	let { children } = $props();
 </script>
 

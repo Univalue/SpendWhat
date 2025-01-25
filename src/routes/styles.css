@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Alibaba-PuHuiTi";
+    src: url("/fonts/AlibabaPuHuiTi-3-65-Medium.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Bold";
+    src: url("/fonts/AlibabaPuHuiTi-3-85-Bold.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bulma-body-family: "Alibaba-PuHuiTi", var(--bulma-family-primary);
+    --font-text-blod: "Alibaba-PuHuiTi-Bold", var(--bulma-body-family);
+    --bulma-radius: .875rem;
+    /* --bulma-scheme-h: 240;
+    --bulma-scheme-s: 10%;
+    --bulma-text-h: 240;
+    --bulma-text-s: 10%;
+    --bulma-text-l: 2%; */
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bulma-scheme-h: 240;
+        --bulma-scheme-s: 10%;
+
+        --bulma-text-strong-l: 2%;
+
+        --bulma-text-h: 240;
+        --bulma-text-s: 10%;
+        --bulma-text-l: 2%;
+
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* --bulma-scheme-h: 240;
+        --bulma-scheme-s: 10%;
+
+
+        --bulma-text-strong-l: 2%;
+
+        --bulma-text-h: 240;
+        --bulma-text-s: 10%; */
+        --bulma-scheme-main-l: 0%;
+        --bulma-text-l: 100%;
+
+    }
+}
