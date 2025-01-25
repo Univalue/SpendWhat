@@ -1,6 +1,8 @@
 <script lang="ts">
-    import { ModeWatcher, mode } from "mode-watcher";
-    let { children } = $props();
+	import { i18n } from '$lib/i18n';
+	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
+	import { ModeWatcher, mode } from "mode-watcher";
+	let { children } = $props();
 </script>
 
 <svelte:head>
@@ -10,4 +12,7 @@
 </svelte:head>
 
 <ModeWatcher />
-{@render children()}
+
+<ParaglideJS {i18n}>
+	{@render children()}
+</ParaglideJS>

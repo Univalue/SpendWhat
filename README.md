@@ -1,3 +1,7 @@
+# SpendWhat 花了啥
+
+I English very bad, I no know I spend what.
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
