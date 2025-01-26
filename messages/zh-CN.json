@@ -1,5 +1,10 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Hello, {name} from zh-CN!",
-	"title": "花了啥？"
+	"title": "花了啥？",
+	"you_spent": "你已支出",
+	"team_spent":"团队共支出",
+	"transaction_count": "{count}笔交易",
+	"bill_info": "账单信息",
+	"bill_info_desc": "管理成员等账单信息"
 }

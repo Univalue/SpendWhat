@@ -5,6 +5,8 @@
 	import * as m from '$lib/paraglide/messages.js';
 	import './styles.css'
 	let { children } = $props();
+
+	console.log(m.hello_world({name: "Svelte"}));
 </script>
 
 <svelte:head>

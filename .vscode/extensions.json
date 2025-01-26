@@ -1,5 +1,9 @@
 {
   "recommendations": [
-    "inlang.vs-code-extension"
+    "inlang.vs-code-extension",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "cipchk.cssrem",
+    "svelte.svelte-vscode"
   ]
 }

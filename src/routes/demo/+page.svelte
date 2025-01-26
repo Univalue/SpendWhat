@@ -1,3 +1,25 @@
+<script>
+    function share() {
+        if (navigator.share) {
+            navigator
+                .share({
+                    title: "分享标题",
+                    text: "分享内容",
+                    url: window.location.href,
+                })
+                .then(() => {
+                    console.log("分享成功");
+                })
+                .catch((error) => {
+                    console.error("分享失败", error);
+                });
+        } else {
+            alert("当前浏览器不支持 Web Share API");
+        }
+    }
+</script>
+
+<a href="/">home</a>
 <a href="/demo/paraglide">paraglide</a>
 <p>123</p>
 <div
@@ -7,3 +29,5 @@
     <div class="box">2</div>
     <div class="box">3</div>
 </div>
+
+<button on:click={share}>分享</button>
