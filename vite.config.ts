@@ -8,6 +8,10 @@ export default defineConfig({
         outdir: "./src/lib/paraglide"
     })],
 	server:{
+		// https:{
+		// 	key:'./certs/key.pem',
+		// 	cert:'./certs/cert.pem'
+		// },
 		host:'0.0.0.0'
 	}
 });
