@@ -24,6 +24,10 @@
     --bulma-block-spacing: 0;
 }
 
+.box {
+    --bulma-box-shadow: 0 0.5em 1em -0.125em hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.1), 0 0px 0 1px hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.08)
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --bulma-scheme-h: 240;
